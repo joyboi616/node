@@ -8,5 +8,5 @@ function onRequest(request, response) {
     response.end();
 }
 
-// Create server to run on por 8000
+// Create server to run on port 8000
 http.createServer(onRequest).listen(8000);
